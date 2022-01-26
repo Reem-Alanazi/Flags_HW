@@ -9,7 +9,7 @@ import com.reem.countries.network.Flag
 import kotlinx.coroutines.launch
 
 
-class CountryViewModel : ViewModel() {
+class FlagViewModel : ViewModel() {
 
     private var _flag = MutableLiveData<String>()
     val flag: LiveData<String> = _flag

@@ -6,24 +6,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import com.reem.countries.R
-import com.reem.countries.databinding.FragmentCountryBinding
+import com.reem.countries.databinding.FragmentFlagBinding
 
-
-class CountryFragment : Fragment() {
-    private val viewModel: CountryViewModel by viewModels()
-
+class FlagFragment : Fragment() {
+    private val viewModel: FlagViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentCountryBinding.inflate(inflater)
+        val binding = FragmentFlagBinding.inflate(inflater)
 
-        // Allows Data Binding to Observe LiveData with the lifecycle of this Fragment
         binding.lifecycleOwner = this
 
-        // Giving the binding access to the CountryViewModel
         binding.viewModel = viewModel
 
         binding.photosGrid.adapter = PhotoGridAdapter()

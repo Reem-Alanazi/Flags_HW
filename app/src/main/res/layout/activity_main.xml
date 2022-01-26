@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/overviewFragment"
-    android:name="com.reem.countries.overview.CountryFragment"
+    android:name="com.reem.countries.overview.FlagFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:layout="@layout/fragment_country" />
+    tools:layout="@layout/fragment_flag" />

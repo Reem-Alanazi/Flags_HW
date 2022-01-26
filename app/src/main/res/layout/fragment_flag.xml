@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.reem.countries.overview.CountryViewModel" />
+            type="com.reem.countries.overview.FlagViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
